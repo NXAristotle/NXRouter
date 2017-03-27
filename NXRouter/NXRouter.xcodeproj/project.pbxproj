@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D242C8631E8914DF00FBE786 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D242C8621E8914DF00FBE786 /* main.m */; };
+		D242C8661E8914DF00FBE786 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D242C8651E8914DF00FBE786 /* AppDelegate.m */; };
+		D242C8691E8914DF00FBE786 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D242C8681E8914DF00FBE786 /* ViewController.m */; };
+		D242C86C1E8914DF00FBE786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D242C86A1E8914DF00FBE786 /* Main.storyboard */; };
+		D242C86E1E8914DF00FBE786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D242C86D1E8914DF00FBE786 /* Assets.xcassets */; };
+		D242C8711E8914DF00FBE786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D242C86F1E8914DF00FBE786 /* LaunchScreen.storyboard */; };
+		D242C87C1E8914DF00FBE786 /* NXRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D242C87B1E8914DF00FBE786 /* NXRouterTests.m */; };
+		D242C8871E8914DF00FBE786 /* NXRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D242C8861E8914DF00FBE786 /* NXRouterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D242C8781E8914DF00FBE786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D242C8561E8914DF00FBE786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D242C85D1E8914DF00FBE786;
+			remoteInfo = NXRouter;
+		};
+		D242C8831E8914DF00FBE786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D242C8561E8914DF00FBE786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D242C85D1E8914DF00FBE786;
+			remoteInfo = NXRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D242C85E1E8914DF00FBE786 /* NXRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D242C8621E8914DF00FBE786 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D242C8641E8914DF00FBE786 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D242C8651E8914DF00FBE786 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D242C8671E8914DF00FBE786 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D242C8681E8914DF00FBE786 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D242C86B1E8914DF00FBE786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D242C86D1E8914DF00FBE786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D242C8701E8914DF00FBE786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D242C8721E8914DF00FBE786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D242C8771E8914DF00FBE786 /* NXRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D242C87B1E8914DF00FBE786 /* NXRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXRouterTests.m; sourceTree = "<group>"; };
+		D242C87D1E8914DF00FBE786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D242C8821E8914DF00FBE786 /* NXRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D242C8861E8914DF00FBE786 /* NXRouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXRouterUITests.m; sourceTree = "<group>"; };
+		D242C8881E8914DF00FBE786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D242C85B1E8914DF00FBE786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242C8741E8914DF00FBE786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242C87F1E8914DF00FBE786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D242C8551E8914DF00FBE786 = {
+			isa = PBXGroup;
+			children = (
+				D242C8601E8914DF00FBE786 /* NXRouter */,
+				D242C87A1E8914DF00FBE786 /* NXRouterTests */,
+				D242C8851E8914DF00FBE786 /* NXRouterUITests */,
+				D242C85F1E8914DF00FBE786 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D242C85F1E8914DF00FBE786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D242C85E1E8914DF00FBE786 /* NXRouter.app */,
+				D242C8771E8914DF00FBE786 /* NXRouterTests.xctest */,
+				D242C8821E8914DF00FBE786 /* NXRouterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D242C8601E8914DF00FBE786 /* NXRouter */ = {
+			isa = PBXGroup;
+			children = (
+				D242C8641E8914DF00FBE786 /* AppDelegate.h */,
+				D242C8651E8914DF00FBE786 /* AppDelegate.m */,
+				D242C8671E8914DF00FBE786 /* ViewController.h */,
+				D242C8681E8914DF00FBE786 /* ViewController.m */,
+				D242C86A1E8914DF00FBE786 /* Main.storyboard */,
+				D242C86D1E8914DF00FBE786 /* Assets.xcassets */,
+				D242C86F1E8914DF00FBE786 /* LaunchScreen.storyboard */,
+				D242C8721E8914DF00FBE786 /* Info.plist */,
+				D242C8611E8914DF00FBE786 /* Supporting Files */,
+			);
+			path = NXRouter;
+			sourceTree = "<group>";
+		};
+		D242C8611E8914DF00FBE786 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D242C8621E8914DF00FBE786 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D242C87A1E8914DF00FBE786 /* NXRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D242C87B1E8914DF00FBE786 /* NXRouterTests.m */,
+				D242C87D1E8914DF00FBE786 /* Info.plist */,
+			);
+			path = NXRouterTests;
+			sourceTree = "<group>";
+		};
+		D242C8851E8914DF00FBE786 /* NXRouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D242C8861E8914DF00FBE786 /* NXRouterUITests.m */,
+				D242C8881E8914DF00FBE786 /* Info.plist */,
+			);
+			path = NXRouterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D242C85D1E8914DF00FBE786 /* NXRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D242C88B1E8914DF00FBE786 /* Build configuration list for PBXNativeTarget "NXRouter" */;
+			buildPhases = (
+				D242C85A1E8914DF00FBE786 /* Sources */,
+				D242C85B1E8914DF00FBE786 /* Frameworks */,
+				D242C85C1E8914DF00FBE786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NXRouter;
+			productName = NXRouter;
+			productReference = D242C85E1E8914DF00FBE786 /* NXRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D242C8761E8914DF00FBE786 /* NXRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D242C88E1E8914DF00FBE786 /* Build configuration list for PBXNativeTarget "NXRouterTests" */;
+			buildPhases = (
+				D242C8731E8914DF00FBE786 /* Sources */,
+				D242C8741E8914DF00FBE786 /* Frameworks */,
+				D242C8751E8914DF00FBE786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D242C8791E8914DF00FBE786 /* PBXTargetDependency */,
+			);
+			name = NXRouterTests;
+			productName = NXRouterTests;
+			productReference = D242C8771E8914DF00FBE786 /* NXRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D242C8811E8914DF00FBE786 /* NXRouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D242C8911E8914DF00FBE786 /* Build configuration list for PBXNativeTarget "NXRouterUITests" */;
+			buildPhases = (
+				D242C87E1E8914DF00FBE786 /* Sources */,
+				D242C87F1E8914DF00FBE786 /* Frameworks */,
+				D242C8801E8914DF00FBE786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D242C8841E8914DF00FBE786 /* PBXTargetDependency */,
+			);
+			name = NXRouterUITests;
+			productName = NXRouterUITests;
+			productReference = D242C8821E8914DF00FBE786 /* NXRouterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D242C8561E8914DF00FBE786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = NXAristotle;
+				TargetAttributes = {
+					D242C85D1E8914DF00FBE786 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L6R48C9T9C;
+						ProvisioningStyle = Automatic;
+					};
+					D242C8761E8914DF00FBE786 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L6R48C9T9C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D242C85D1E8914DF00FBE786;
+					};
+					D242C8811E8914DF00FBE786 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L6R48C9T9C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D242C85D1E8914DF00FBE786;
+					};
+				};
+			};
+			buildConfigurationList = D242C8591E8914DF00FBE786 /* Build configuration list for PBXProject "NXRouter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D242C8551E8914DF00FBE786;
+			productRefGroup = D242C85F1E8914DF00FBE786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D242C85D1E8914DF00FBE786 /* NXRouter */,
+				D242C8761E8914DF00FBE786 /* NXRouterTests */,
+				D242C8811E8914DF00FBE786 /* NXRouterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D242C85C1E8914DF00FBE786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D242C8711E8914DF00FBE786 /* LaunchScreen.storyboard in Resources */,
+				D242C86E1E8914DF00FBE786 /* Assets.xcassets in Resources */,
+				D242C86C1E8914DF00FBE786 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242C8751E8914DF00FBE786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242C8801E8914DF00FBE786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D242C85A1E8914DF00FBE786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D242C8691E8914DF00FBE786 /* ViewController.m in Sources */,
+				D242C8661E8914DF00FBE786 /* AppDelegate.m in Sources */,
+				D242C8631E8914DF00FBE786 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242C8731E8914DF00FBE786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D242C87C1E8914DF00FBE786 /* NXRouterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242C87E1E8914DF00FBE786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D242C8871E8914DF00FBE786 /* NXRouterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D242C8791E8914DF00FBE786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D242C85D1E8914DF00FBE786 /* NXRouter */;
+			targetProxy = D242C8781E8914DF00FBE786 /* PBXContainerItemProxy */;
+		};
+		D242C8841E8914DF00FBE786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D242C85D1E8914DF00FBE786 /* NXRouter */;
+			targetProxy = D242C8831E8914DF00FBE786 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D242C86A1E8914DF00FBE786 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D242C86B1E8914DF00FBE786 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D242C86F1E8914DF00FBE786 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D242C8701E8914DF00FBE786 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D242C8891E8914DF00FBE786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D242C88A1E8914DF00FBE786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D242C88C1E8914DF00FBE786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6R48C9T9C;
+				INFOPLIST_FILE = NXRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xywy.NXRouter.NXRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D242C88D1E8914DF00FBE786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6R48C9T9C;
+				INFOPLIST_FILE = NXRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xywy.NXRouter.NXRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D242C88F1E8914DF00FBE786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L6R48C9T9C;
+				INFOPLIST_FILE = NXRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xywy.NXRouter.NXRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXRouter.app/NXRouter";
+			};
+			name = Debug;
+		};
+		D242C8901E8914DF00FBE786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L6R48C9T9C;
+				INFOPLIST_FILE = NXRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xywy.NXRouter.NXRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXRouter.app/NXRouter";
+			};
+			name = Release;
+		};
+		D242C8921E8914DF00FBE786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L6R48C9T9C;
+				INFOPLIST_FILE = NXRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xywy.NXRouter.NXRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NXRouter;
+			};
+			name = Debug;
+		};
+		D242C8931E8914DF00FBE786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L6R48C9T9C;
+				INFOPLIST_FILE = NXRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xywy.NXRouter.NXRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NXRouter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D242C8591E8914DF00FBE786 /* Build configuration list for PBXProject "NXRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D242C8891E8914DF00FBE786 /* Debug */,
+				D242C88A1E8914DF00FBE786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D242C88B1E8914DF00FBE786 /* Build configuration list for PBXNativeTarget "NXRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D242C88C1E8914DF00FBE786 /* Debug */,
+				D242C88D1E8914DF00FBE786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D242C88E1E8914DF00FBE786 /* Build configuration list for PBXNativeTarget "NXRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D242C88F1E8914DF00FBE786 /* Debug */,
+				D242C8901E8914DF00FBE786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D242C8911E8914DF00FBE786 /* Build configuration list for PBXNativeTarget "NXRouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D242C8921E8914DF00FBE786 /* Debug */,
+				D242C8931E8914DF00FBE786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D242C8561E8914DF00FBE786 /* Project object */;
+}
