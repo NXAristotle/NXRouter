@@ -24,6 +24,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)jumpToTestVC:(UIButton *)sender {
+    [[NXRouter sharRouter] pushURLString:@"app://NXAristotle/NXAristotleViewController" animated:YES];
+}
 
 
 @end

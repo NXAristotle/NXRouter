@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D21F8FD41E8A77850024E924 /* NXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F8FD31E8A77850024E924 /* NXRouter.m */; };
+		D21F8FD61E8A77C10024E924 /* NXRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = D21F8FD51E8A77C10024E924 /* NXRouter.plist */; };
+		D21F8FDB1E8A88E80024E924 /* NXAristotleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F8FD91E8A88E80024E924 /* NXAristotleViewController.m */; };
+		D21F8FDC1E8A88E80024E924 /* NXAristotleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D21F8FDA1E8A88E80024E924 /* NXAristotleViewController.xib */; };
 		D242C8631E8914DF00FBE786 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D242C8621E8914DF00FBE786 /* main.m */; };
 		D242C8661E8914DF00FBE786 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D242C8651E8914DF00FBE786 /* AppDelegate.m */; };
 		D242C8691E8914DF00FBE786 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D242C8681E8914DF00FBE786 /* ViewController.m */; };
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D21F8FD21E8A77850024E924 /* NXRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXRouter.h; sourceTree = "<group>"; };
+		D21F8FD31E8A77850024E924 /* NXRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXRouter.m; sourceTree = "<group>"; };
+		D21F8FD51E8A77C10024E924 /* NXRouter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NXRouter.plist; sourceTree = "<group>"; };
+		D21F8FD71E8A87BF0024E924 /* NXRouter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NXRouter-Prefix.pch"; sourceTree = "<group>"; };
+		D21F8FD81E8A88E80024E924 /* NXAristotleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXAristotleViewController.h; sourceTree = "<group>"; };
+		D21F8FD91E8A88E80024E924 /* NXAristotleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXAristotleViewController.m; sourceTree = "<group>"; };
+		D21F8FDA1E8A88E80024E924 /* NXAristotleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXAristotleViewController.xib; sourceTree = "<group>"; };
 		D242C85E1E8914DF00FBE786 /* NXRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D242C8621E8914DF00FBE786 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D242C8641E8914DF00FBE786 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +89,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D21F8FD11E8A77700024E924 /* NXRouter */ = {
+			isa = PBXGroup;
+			children = (
+				D21F8FD21E8A77850024E924 /* NXRouter.h */,
+				D21F8FD31E8A77850024E924 /* NXRouter.m */,
+				D21F8FD51E8A77C10024E924 /* NXRouter.plist */,
+			);
+			path = NXRouter;
+			sourceTree = "<group>";
+		};
 		D242C8551E8914DF00FBE786 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +122,14 @@
 		D242C8601E8914DF00FBE786 /* NXRouter */ = {
 			isa = PBXGroup;
 			children = (
+				D21F8FD11E8A77700024E924 /* NXRouter */,
 				D242C8641E8914DF00FBE786 /* AppDelegate.h */,
 				D242C8651E8914DF00FBE786 /* AppDelegate.m */,
 				D242C8671E8914DF00FBE786 /* ViewController.h */,
 				D242C8681E8914DF00FBE786 /* ViewController.m */,
+				D21F8FD81E8A88E80024E924 /* NXAristotleViewController.h */,
+				D21F8FD91E8A88E80024E924 /* NXAristotleViewController.m */,
+				D21F8FDA1E8A88E80024E924 /* NXAristotleViewController.xib */,
 				D242C86A1E8914DF00FBE786 /* Main.storyboard */,
 				D242C86D1E8914DF00FBE786 /* Assets.xcassets */,
 				D242C86F1E8914DF00FBE786 /* LaunchScreen.storyboard */,
@@ -118,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				D242C8621E8914DF00FBE786 /* main.m */,
+				D21F8FD71E8A87BF0024E924 /* NXRouter-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -250,8 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D242C8711E8914DF00FBE786 /* LaunchScreen.storyboard in Resources */,
+				D21F8FDC1E8A88E80024E924 /* NXAristotleViewController.xib in Resources */,
 				D242C86E1E8914DF00FBE786 /* Assets.xcassets in Resources */,
 				D242C86C1E8914DF00FBE786 /* Main.storyboard in Resources */,
+				D21F8FD61E8A77C10024E924 /* NXRouter.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21F8FD41E8A77850024E924 /* NXRouter.m in Sources */,
 				D242C8691E8914DF00FBE786 /* ViewController.m in Sources */,
 				D242C8661E8914DF00FBE786 /* AppDelegate.m in Sources */,
 				D242C8631E8914DF00FBE786 /* main.m in Sources */,
+				D21F8FDB1E8A88E80024E924 /* NXAristotleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +456,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L6R48C9T9C;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NXRouter/NXRouter-Prefix.pch";
 				INFOPLIST_FILE = NXRouter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xywy.NXRouter.NXRouter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,7 +470,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L6R48C9T9C;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NXRouter/NXRouter-Prefix.pch";
 				INFOPLIST_FILE = NXRouter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xywy.NXRouter.NXRouter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +548,7 @@
 				D242C88D1E8914DF00FBE786 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D242C88E1E8914DF00FBE786 /* Build configuration list for PBXNativeTarget "NXRouterTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +557,7 @@
 				D242C8901E8914DF00FBE786 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D242C8911E8914DF00FBE786 /* Build configuration list for PBXNativeTarget "NXRouterUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +566,7 @@
 				D242C8931E8914DF00FBE786 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
