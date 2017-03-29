@@ -64,6 +64,7 @@ static NXRouter *_router;
     UIViewController *activityViewController;
     activityViewController = [self recursionControllerFrom:[UIApplication sharedApplication].delegate.window.rootViewController];
     return activityViewController;
+    
 }
 
 - (UIViewController *)recursionControllerFrom:(UIViewController *)controller {

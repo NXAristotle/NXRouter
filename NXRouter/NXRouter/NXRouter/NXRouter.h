@@ -73,6 +73,10 @@ FOUNDATION_EXPORT NSString *const ZKQURLRouterPlist;
  */
 - (void)popViewControllerAnimated:(BOOL)animated;
 - (void)popTwiceViewControllerAnimated:(BOOL)animated;
+/**
+ * 
+ * @param times  需要pop的VC的层数
+ */
 - (void)popViewControllerWithTimes:(NSUInteger)times
                           animated:(BOOL)animated;
 - (void)popToRootViewControllerAnimated:(BOOL)animated;

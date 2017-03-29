@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NXTestW2ViewController.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"W2目标VC";
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -29,6 +31,13 @@
     
     [[NXRouter sharRouter] pushURLString:@"app://NXAristotle/NXAristotleViewController" params:@{@"name":@"nxaristotle",@"identifier":@"12869"} animated:YES];
 }
+
+- (IBAction)jumpToTestVCW2:(UIButton *)sender {
+    
+    NXTestW2ViewController *W2VC = [[NXTestW2ViewController alloc] init];
+    [[NXRouter sharRouter] pushViewController:W2VC animated:YES];
+}
+
 
 
 @end

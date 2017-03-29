@@ -28,7 +28,7 @@
                                     <constraint firstAttribute="width" constant="200" id="NBo-Mu-cal"/>
                                     <constraint firstAttribute="height" constant="44" id="UV2-n3-iff"/>
                                 </constraints>
-                                <state key="normal" title="jumpToTestVC">
+                                <state key="normal" title="jumpToTestVC(URL方式)">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -39,12 +39,30 @@
                                     <action selector="jumpToTestVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ENi-1w-ljt"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zv6-CB-1no">
+                                <rect key="frame" x="88" y="483" width="200" height="44"/>
+                                <color key="backgroundColor" red="0.43137254899999999" green="0.84705882349999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="jumpToTestVC（VC名方式）">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="jumpToTestVCW2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N6I-WC-7YH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="zv6-CB-1no" firstAttribute="width" secondItem="NJY-o3-FKO" secondAttribute="width" id="5ZL-QF-Gyv"/>
                             <constraint firstItem="NJY-o3-FKO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BpD-xE-UwR"/>
+                            <constraint firstItem="zv6-CB-1no" firstAttribute="height" secondItem="NJY-o3-FKO" secondAttribute="height" id="X5i-Zm-fey"/>
+                            <constraint firstItem="zv6-CB-1no" firstAttribute="centerX" secondItem="NJY-o3-FKO" secondAttribute="centerX" id="hax-yp-NJt"/>
+                            <constraint firstItem="zv6-CB-1no" firstAttribute="top" secondItem="NJY-o3-FKO" secondAttribute="bottom" constant="128" id="n8q-u4-yZa"/>
                             <constraint firstItem="NJY-o3-FKO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qEb-sJ-qdb"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="self.layer.cornerRadius" value="5"/>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <navigationItem key="navigationItem" id="nGs-cv-cy0"/>
                 </viewController>

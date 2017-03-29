@@ -30,6 +30,8 @@
 		D2CD2DDD1E8B562F00B16B6A /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2DD01E8B562F00B16B6A /* NSObject+MJKeyValue.m */; };
 		D2CD2DDE1E8B562F00B16B6A /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2DD21E8B562F00B16B6A /* NSObject+MJProperty.m */; };
 		D2CD2DDF1E8B562F00B16B6A /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2DD41E8B562F00B16B6A /* NSString+MJExtension.m */; };
+		D2CD2DE31E8BBEF900B16B6A /* NXTestW2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2DE11E8BBEF900B16B6A /* NXTestW2ViewController.m */; };
+		D2CD2DE41E8BBEF900B16B6A /* NXTestW2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2CD2DE21E8BBEF900B16B6A /* NXTestW2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,9 @@
 		D2CD2DD21E8B562F00B16B6A /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		D2CD2DD31E8B562F00B16B6A /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		D2CD2DD41E8B562F00B16B6A /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		D2CD2DE01E8BBEF900B16B6A /* NXTestW2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTestW2ViewController.h; sourceTree = "<group>"; };
+		D2CD2DE11E8BBEF900B16B6A /* NXTestW2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTestW2ViewController.m; sourceTree = "<group>"; };
+		D2CD2DE21E8BBEF900B16B6A /* NXTestW2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXTestW2ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +169,9 @@
 				D21F8FD81E8A88E80024E924 /* NXAristotleViewController.h */,
 				D21F8FD91E8A88E80024E924 /* NXAristotleViewController.m */,
 				D21F8FDA1E8A88E80024E924 /* NXAristotleViewController.xib */,
+				D2CD2DE01E8BBEF900B16B6A /* NXTestW2ViewController.h */,
+				D2CD2DE11E8BBEF900B16B6A /* NXTestW2ViewController.m */,
+				D2CD2DE21E8BBEF900B16B6A /* NXTestW2ViewController.xib */,
 				D242C86A1E8914DF00FBE786 /* Main.storyboard */,
 				D242C86D1E8914DF00FBE786 /* Assets.xcassets */,
 				D242C86F1E8914DF00FBE786 /* LaunchScreen.storyboard */,
@@ -352,6 +360,7 @@
 				D242C86E1E8914DF00FBE786 /* Assets.xcassets in Resources */,
 				D242C86C1E8914DF00FBE786 /* Main.storyboard in Resources */,
 				D21F8FD61E8A77C10024E924 /* NXRouter.plist in Resources */,
+				D2CD2DE41E8BBEF900B16B6A /* NXTestW2ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D21F8FD41E8A77850024E924 /* NXRouter.m in Sources */,
+				D2CD2DE31E8BBEF900B16B6A /* NXTestW2ViewController.m in Sources */,
 				D2CD2DD71E8B562F00B16B6A /* MJFoundation.m in Sources */,
 				D2CD2DDD1E8B562F00B16B6A /* NSObject+MJKeyValue.m in Sources */,
 				D242C8691E8914DF00FBE786 /* ViewController.m in Sources */,
