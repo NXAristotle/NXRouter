@@ -18,6 +18,7 @@
     [super viewDidLoad];
     self.title = @"测试的目标跳转VC";
     // Do any additional setup after loading the view from its nib.
+    NSLog(@"test - test");
 }
 
 - (void)didReceiveMemoryWarning {

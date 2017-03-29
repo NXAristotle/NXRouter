@@ -10,4 +10,8 @@
 
 @interface NXAristotleViewController : UIViewController
 
+@property (nonatomic, strong) NSString *name;
+
+@property (nonatomic, strong) NSNumber *identifier;
+
 @end

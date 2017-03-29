@@ -190,34 +190,10 @@ static NXRouter *_router;
 
 - (void)setValuesForKeysController:(UIViewController *)controller
                         Dictionary:(NSDictionary *)params {
+        //  给VC的property赋值
+        [controller mj_setKeyValues:params];
     
-#warning 此处注释需要回顾
-    //    [controller mj_setKeyValues:params];
-    
-    //取出keys 拼合 赋值
-    //    NSArray *keys= [params allKeys];
-    //    if (controller && keys.count) {
-    //
-    //        //拼
-    //        for (NSString *key in keys) {
-    //
-    //            if ([params objectForKey:key]) {
-    //                NSString *setKey = [NSString stringWithFormat:@"set%@:", [key mj_firstCharUpper  ]];
-    //                //调用 controller 的 set 方法
-    //                if ([controller respondsToSelector:NSSelectorFromString(setKey)]) {
-    //                    //去掉警告...
-    //#pragma clang diagnostic push
-    //#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
-    //                    [controller performSelector:NSSelectorFromString(setKey) withObject:[params objectForKey:key]];
-    //#pragma clang diagnostic pop
-    //                } else {
-    //                    NSLog(@"no key: %@ in your params", key);
-    //                }
-    //            }
-    //        }
-    //
-    //    }
-}
+   }
 
 - (void)pushViewController:(UIViewController *)viewController
                   animated:(BOOL)animated {

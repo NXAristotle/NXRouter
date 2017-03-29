@@ -25,7 +25,9 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)jumpToTestVC:(UIButton *)sender {
-    [[NXRouter sharRouter] pushURLString:@"app://NXAristotle/NXAristotleViewController" animated:YES];
+//    [[NXRouter sharRouter] pushURLString:@"app://NXAristotle/NXAristotleViewController" animated:YES];
+    
+    [[NXRouter sharRouter] pushURLString:@"app://NXAristotle/NXAristotleViewController" params:@{@"name":@"nxaristotle",@"identifier":@"12869"} animated:YES];
 }
 
 
