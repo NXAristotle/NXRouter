@@ -9,11 +9,8 @@
 /* Begin PBXBuildFile section */
 		D21F8FD41E8A77850024E924 /* NXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F8FD31E8A77850024E924 /* NXRouter.m */; };
 		D21F8FD61E8A77C10024E924 /* NXRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = D21F8FD51E8A77C10024E924 /* NXRouter.plist */; };
-		D21F8FDB1E8A88E80024E924 /* NXAristotleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F8FD91E8A88E80024E924 /* NXAristotleViewController.m */; };
-		D21F8FDC1E8A88E80024E924 /* NXAristotleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D21F8FDA1E8A88E80024E924 /* NXAristotleViewController.xib */; };
 		D242C8631E8914DF00FBE786 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D242C8621E8914DF00FBE786 /* main.m */; };
 		D242C8661E8914DF00FBE786 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D242C8651E8914DF00FBE786 /* AppDelegate.m */; };
-		D242C8691E8914DF00FBE786 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D242C8681E8914DF00FBE786 /* ViewController.m */; };
 		D242C86C1E8914DF00FBE786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D242C86A1E8914DF00FBE786 /* Main.storyboard */; };
 		D242C86E1E8914DF00FBE786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D242C86D1E8914DF00FBE786 /* Assets.xcassets */; };
 		D242C8711E8914DF00FBE786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D242C86F1E8914DF00FBE786 /* LaunchScreen.storyboard */; };
@@ -30,8 +27,21 @@
 		D2CD2DDD1E8B562F00B16B6A /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2DD01E8B562F00B16B6A /* NSObject+MJKeyValue.m */; };
 		D2CD2DDE1E8B562F00B16B6A /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2DD21E8B562F00B16B6A /* NSObject+MJProperty.m */; };
 		D2CD2DDF1E8B562F00B16B6A /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2DD41E8B562F00B16B6A /* NSString+MJExtension.m */; };
-		D2CD2DE31E8BBEF900B16B6A /* NXTestW2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2DE11E8BBEF900B16B6A /* NXTestW2ViewController.m */; };
-		D2CD2DE41E8BBEF900B16B6A /* NXTestW2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2CD2DE21E8BBEF900B16B6A /* NXTestW2ViewController.xib */; };
+		D2CD2DEE1E8CE95400B16B6A /* NXNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2DED1E8CE95400B16B6A /* NXNavigationViewController.m */; };
+		D2CD2DF81E8CE9B900B16B6A /* NXAristotleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2DF11E8CE9B900B16B6A /* NXAristotleViewController.m */; };
+		D2CD2DF91E8CE9B900B16B6A /* NXAristotleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2CD2DF21E8CE9B900B16B6A /* NXAristotleViewController.xib */; };
+		D2CD2DFA1E8CE9B900B16B6A /* NXTestW2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2DF41E8CE9B900B16B6A /* NXTestW2ViewController.m */; };
+		D2CD2DFB1E8CE9B900B16B6A /* NXTestW2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2CD2DF51E8CE9B900B16B6A /* NXTestW2ViewController.xib */; };
+		D2CD2E001E8CEA2500B16B6A /* NXPersonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2DFF1E8CEA2500B16B6A /* NXPersonTableViewController.m */; };
+		D2CD2E041E8CEB6700B16B6A /* NXPersonalDesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2E021E8CEB6700B16B6A /* NXPersonalDesViewController.m */; };
+		D2CD2E051E8CEB6700B16B6A /* NXPersonalDesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2CD2E031E8CEB6700B16B6A /* NXPersonalDesViewController.xib */; };
+		D2CD2E091E8CEC9E00B16B6A /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2E081E8CEC9E00B16B6A /* UIColor+HexColor.m */; };
+		D2CD2E0D1E8CECCD00B16B6A /* NXTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2E0B1E8CECCD00B16B6A /* NXTools.mm */; };
+		D2CD2E101E8CED3300B16B6A /* UIBarButtonItem+NX.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2E0E1E8CED3300B16B6A /* UIBarButtonItem+NX.m */; };
+		D2CD2E131E8CEE0600B16B6A /* UIView+NX.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2E111E8CEE0600B16B6A /* UIView+NX.m */; };
+		D2CD2E171E8CEF9100B16B6A /* NXDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2E151E8CEF9100B16B6A /* NXDetailViewController.m */; };
+		D2CD2E181E8CEF9100B16B6A /* NXDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2CD2E161E8CEF9100B16B6A /* NXDetailViewController.xib */; };
+		D2CD2E1B1E8CF4D400B16B6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD2E1A1E8CF4D400B16B6A /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,15 +66,10 @@
 		D21F8FD31E8A77850024E924 /* NXRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXRouter.m; sourceTree = "<group>"; };
 		D21F8FD51E8A77C10024E924 /* NXRouter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NXRouter.plist; sourceTree = "<group>"; };
 		D21F8FD71E8A87BF0024E924 /* NXRouter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NXRouter-Prefix.pch"; sourceTree = "<group>"; };
-		D21F8FD81E8A88E80024E924 /* NXAristotleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXAristotleViewController.h; sourceTree = "<group>"; };
-		D21F8FD91E8A88E80024E924 /* NXAristotleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXAristotleViewController.m; sourceTree = "<group>"; };
-		D21F8FDA1E8A88E80024E924 /* NXAristotleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXAristotleViewController.xib; sourceTree = "<group>"; };
 		D242C85E1E8914DF00FBE786 /* NXRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D242C8621E8914DF00FBE786 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D242C8641E8914DF00FBE786 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D242C8651E8914DF00FBE786 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D242C8671E8914DF00FBE786 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D242C8681E8914DF00FBE786 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D242C86B1E8914DF00FBE786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D242C86D1E8914DF00FBE786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D242C8701E8914DF00FBE786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,9 +102,32 @@
 		D2CD2DD21E8B562F00B16B6A /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		D2CD2DD31E8B562F00B16B6A /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		D2CD2DD41E8B562F00B16B6A /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
-		D2CD2DE01E8BBEF900B16B6A /* NXTestW2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTestW2ViewController.h; sourceTree = "<group>"; };
-		D2CD2DE11E8BBEF900B16B6A /* NXTestW2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTestW2ViewController.m; sourceTree = "<group>"; };
-		D2CD2DE21E8BBEF900B16B6A /* NXTestW2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXTestW2ViewController.xib; sourceTree = "<group>"; };
+		D2CD2DEC1E8CE95400B16B6A /* NXNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXNavigationViewController.h; sourceTree = "<group>"; };
+		D2CD2DED1E8CE95400B16B6A /* NXNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXNavigationViewController.m; sourceTree = "<group>"; };
+		D2CD2DF01E8CE9B900B16B6A /* NXAristotleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXAristotleViewController.h; sourceTree = "<group>"; };
+		D2CD2DF11E8CE9B900B16B6A /* NXAristotleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXAristotleViewController.m; sourceTree = "<group>"; };
+		D2CD2DF21E8CE9B900B16B6A /* NXAristotleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXAristotleViewController.xib; sourceTree = "<group>"; };
+		D2CD2DF31E8CE9B900B16B6A /* NXTestW2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTestW2ViewController.h; sourceTree = "<group>"; };
+		D2CD2DF41E8CE9B900B16B6A /* NXTestW2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTestW2ViewController.m; sourceTree = "<group>"; };
+		D2CD2DF51E8CE9B900B16B6A /* NXTestW2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXTestW2ViewController.xib; sourceTree = "<group>"; };
+		D2CD2DFE1E8CEA2500B16B6A /* NXPersonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPersonTableViewController.h; sourceTree = "<group>"; };
+		D2CD2DFF1E8CEA2500B16B6A /* NXPersonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPersonTableViewController.m; sourceTree = "<group>"; };
+		D2CD2E011E8CEB6700B16B6A /* NXPersonalDesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPersonalDesViewController.h; sourceTree = "<group>"; };
+		D2CD2E021E8CEB6700B16B6A /* NXPersonalDesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPersonalDesViewController.m; sourceTree = "<group>"; };
+		D2CD2E031E8CEB6700B16B6A /* NXPersonalDesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXPersonalDesViewController.xib; sourceTree = "<group>"; };
+		D2CD2E071E8CEC9E00B16B6A /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		D2CD2E081E8CEC9E00B16B6A /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		D2CD2E0B1E8CECCD00B16B6A /* NXTools.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NXTools.mm; sourceTree = "<group>"; };
+		D2CD2E0C1E8CECCD00B16B6A /* NXTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTools.h; sourceTree = "<group>"; };
+		D2CD2E0E1E8CED3300B16B6A /* UIBarButtonItem+NX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+NX.m"; sourceTree = "<group>"; };
+		D2CD2E0F1E8CED3300B16B6A /* UIBarButtonItem+NX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+NX.h"; sourceTree = "<group>"; };
+		D2CD2E111E8CEE0600B16B6A /* UIView+NX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NX.m"; sourceTree = "<group>"; };
+		D2CD2E121E8CEE0600B16B6A /* UIView+NX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NX.h"; sourceTree = "<group>"; };
+		D2CD2E141E8CEF9100B16B6A /* NXDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXDetailViewController.h; sourceTree = "<group>"; };
+		D2CD2E151E8CEF9100B16B6A /* NXDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXDetailViewController.m; sourceTree = "<group>"; };
+		D2CD2E161E8CEF9100B16B6A /* NXDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXDetailViewController.xib; sourceTree = "<group>"; };
+		D2CD2E191E8CF4D400B16B6A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2CD2E1A1E8CF4D400B16B6A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,17 +190,14 @@
 			children = (
 				D2CD2DBD1E8B562800B16B6A /* lib */,
 				D21F8FD11E8A77700024E924 /* NXRouter */,
+				D2CD2DEB1E8CE95400B16B6A /* base */,
+				D2CD2DEF1E8CE9B900B16B6A /* Home */,
+				D2CD2DFD1E8CEA2500B16B6A /* Personal */,
+				D2CD2E0A1E8CECB700B16B6A /* Tools */,
+				D2CD2E061E8CEC7F00B16B6A /* Category */,
+				D242C86A1E8914DF00FBE786 /* Main.storyboard */,
 				D242C8641E8914DF00FBE786 /* AppDelegate.h */,
 				D242C8651E8914DF00FBE786 /* AppDelegate.m */,
-				D242C8671E8914DF00FBE786 /* ViewController.h */,
-				D242C8681E8914DF00FBE786 /* ViewController.m */,
-				D21F8FD81E8A88E80024E924 /* NXAristotleViewController.h */,
-				D21F8FD91E8A88E80024E924 /* NXAristotleViewController.m */,
-				D21F8FDA1E8A88E80024E924 /* NXAristotleViewController.xib */,
-				D2CD2DE01E8BBEF900B16B6A /* NXTestW2ViewController.h */,
-				D2CD2DE11E8BBEF900B16B6A /* NXTestW2ViewController.m */,
-				D2CD2DE21E8BBEF900B16B6A /* NXTestW2ViewController.xib */,
-				D242C86A1E8914DF00FBE786 /* Main.storyboard */,
 				D242C86D1E8914DF00FBE786 /* Assets.xcassets */,
 				D242C86F1E8914DF00FBE786 /* LaunchScreen.storyboard */,
 				D242C8721E8914DF00FBE786 /* Info.plist */,
@@ -243,6 +268,67 @@
 				D2CD2DD41E8B562F00B16B6A /* NSString+MJExtension.m */,
 			);
 			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		D2CD2DEB1E8CE95400B16B6A /* base */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD2DEC1E8CE95400B16B6A /* NXNavigationViewController.h */,
+				D2CD2DED1E8CE95400B16B6A /* NXNavigationViewController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		D2CD2DEF1E8CE9B900B16B6A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD2DF01E8CE9B900B16B6A /* NXAristotleViewController.h */,
+				D2CD2DF11E8CE9B900B16B6A /* NXAristotleViewController.m */,
+				D2CD2DF21E8CE9B900B16B6A /* NXAristotleViewController.xib */,
+				D2CD2DF31E8CE9B900B16B6A /* NXTestW2ViewController.h */,
+				D2CD2DF41E8CE9B900B16B6A /* NXTestW2ViewController.m */,
+				D2CD2DF51E8CE9B900B16B6A /* NXTestW2ViewController.xib */,
+				D2CD2E191E8CF4D400B16B6A /* ViewController.h */,
+				D2CD2E1A1E8CF4D400B16B6A /* ViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D2CD2DFD1E8CEA2500B16B6A /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD2DFE1E8CEA2500B16B6A /* NXPersonTableViewController.h */,
+				D2CD2DFF1E8CEA2500B16B6A /* NXPersonTableViewController.m */,
+				D2CD2E011E8CEB6700B16B6A /* NXPersonalDesViewController.h */,
+				D2CD2E021E8CEB6700B16B6A /* NXPersonalDesViewController.m */,
+				D2CD2E031E8CEB6700B16B6A /* NXPersonalDesViewController.xib */,
+				D2CD2E141E8CEF9100B16B6A /* NXDetailViewController.h */,
+				D2CD2E151E8CEF9100B16B6A /* NXDetailViewController.m */,
+				D2CD2E161E8CEF9100B16B6A /* NXDetailViewController.xib */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		D2CD2E061E8CEC7F00B16B6A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD2E121E8CEE0600B16B6A /* UIView+NX.h */,
+				D2CD2E111E8CEE0600B16B6A /* UIView+NX.m */,
+				D2CD2E0F1E8CED3300B16B6A /* UIBarButtonItem+NX.h */,
+				D2CD2E0E1E8CED3300B16B6A /* UIBarButtonItem+NX.m */,
+				D2CD2E071E8CEC9E00B16B6A /* UIColor+HexColor.h */,
+				D2CD2E081E8CEC9E00B16B6A /* UIColor+HexColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D2CD2E0A1E8CECB700B16B6A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD2E0C1E8CECCD00B16B6A /* NXTools.h */,
+				D2CD2E0B1E8CECCD00B16B6A /* NXTools.mm */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,13 +440,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2CD2E181E8CEF9100B16B6A /* NXDetailViewController.xib in Resources */,
 				D242C8711E8914DF00FBE786 /* LaunchScreen.storyboard in Resources */,
-				D21F8FDC1E8A88E80024E924 /* NXAristotleViewController.xib in Resources */,
 				D2CD2DD51E8B562F00B16B6A /* Info.plist in Resources */,
+				D2CD2DF91E8CE9B900B16B6A /* NXAristotleViewController.xib in Resources */,
 				D242C86E1E8914DF00FBE786 /* Assets.xcassets in Resources */,
 				D242C86C1E8914DF00FBE786 /* Main.storyboard in Resources */,
+				D2CD2E051E8CEB6700B16B6A /* NXPersonalDesViewController.xib in Resources */,
 				D21F8FD61E8A77C10024E924 /* NXRouter.plist in Resources */,
-				D2CD2DE41E8BBEF900B16B6A /* NXTestW2ViewController.xib in Resources */,
+				D2CD2DFB1E8CE9B900B16B6A /* NXTestW2ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,22 +473,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2CD2E131E8CEE0600B16B6A /* UIView+NX.m in Sources */,
 				D21F8FD41E8A77850024E924 /* NXRouter.m in Sources */,
-				D2CD2DE31E8BBEF900B16B6A /* NXTestW2ViewController.m in Sources */,
+				D2CD2E171E8CEF9100B16B6A /* NXDetailViewController.m in Sources */,
 				D2CD2DD71E8B562F00B16B6A /* MJFoundation.m in Sources */,
+				D2CD2DF81E8CE9B900B16B6A /* NXAristotleViewController.m in Sources */,
+				D2CD2E101E8CED3300B16B6A /* UIBarButtonItem+NX.m in Sources */,
 				D2CD2DDD1E8B562F00B16B6A /* NSObject+MJKeyValue.m in Sources */,
-				D242C8691E8914DF00FBE786 /* ViewController.m in Sources */,
 				D2CD2DD81E8B562F00B16B6A /* MJProperty.m in Sources */,
+				D2CD2DEE1E8CE95400B16B6A /* NXNavigationViewController.m in Sources */,
 				D2CD2DD91E8B562F00B16B6A /* MJPropertyKey.m in Sources */,
+				D2CD2E0D1E8CECCD00B16B6A /* NXTools.mm in Sources */,
 				D2CD2DDA1E8B562F00B16B6A /* MJPropertyType.m in Sources */,
 				D2CD2DDB1E8B562F00B16B6A /* NSObject+MJClass.m in Sources */,
 				D2CD2DDF1E8B562F00B16B6A /* NSString+MJExtension.m in Sources */,
+				D2CD2E041E8CEB6700B16B6A /* NXPersonalDesViewController.m in Sources */,
 				D242C8661E8914DF00FBE786 /* AppDelegate.m in Sources */,
 				D2CD2DDE1E8B562F00B16B6A /* NSObject+MJProperty.m in Sources */,
 				D2CD2DDC1E8B562F00B16B6A /* NSObject+MJCoding.m in Sources */,
+				D2CD2E1B1E8CF4D400B16B6A /* ViewController.m in Sources */,
+				D2CD2E001E8CEA2500B16B6A /* NXPersonTableViewController.m in Sources */,
 				D242C8631E8914DF00FBE786 /* main.m in Sources */,
+				D2CD2E091E8CEC9E00B16B6A /* UIColor+HexColor.m in Sources */,
 				D2CD2DD61E8B562F00B16B6A /* MJExtensionConst.m in Sources */,
-				D21F8FDB1E8A88E80024E924 /* NXAristotleViewController.m in Sources */,
+				D2CD2DFA1E8CE9B900B16B6A /* NXTestW2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

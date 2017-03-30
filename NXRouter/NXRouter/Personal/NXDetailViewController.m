@@ -1,21 +1,22 @@
 //
-//  NXTestW2ViewController.m
+//  NXDetailViewController.m
 //  NXRouter
 //
-//  Created by linyibin on 2017/3/29.
+//  Created by linyibin on 2017/3/30.
 //  Copyright © 2017年 NXAristotle. All rights reserved.
 //
 
-#import "NXTestW2ViewController.h"
+#import "NXDetailViewController.h"
 
-@interface NXTestW2ViewController ()
+@interface NXDetailViewController ()
 
 @end
 
-@implementation NXTestW2ViewController
+@implementation NXDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"详情VC （第三级VC）";
     // Do any additional setup after loading the view from its nib.
 }
 

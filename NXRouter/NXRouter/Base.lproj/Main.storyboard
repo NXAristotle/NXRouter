@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jo2-5x-LfF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="CMc-NH-iZm">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJY-o3-FKO">
-                                <rect key="frame" x="88" y="311" width="200" height="44"/>
+                                <rect key="frame" x="88" y="95" width="200" height="44"/>
                                 <color key="backgroundColor" red="0.43137254899999999" green="0.84705882349999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="NBo-Mu-cal"/>
@@ -40,24 +41,46 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zv6-CB-1no">
-                                <rect key="frame" x="88" y="483" width="200" height="44"/>
+                                <rect key="frame" x="88" y="267" width="200" height="44"/>
                                 <color key="backgroundColor" red="0.43137254899999999" green="0.84705882349999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="jumpToTestVC（VC名方式）">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="self.layer.cornerRadius" value="5"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="jumpToTestVCW2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N6I-WC-7YH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvn-M0-azw">
+                                <rect key="frame" x="88" y="439" width="200" height="44"/>
+                                <color key="backgroundColor" red="0.43137254899999999" green="0.84705882349999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="跨栈跳转">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="self.layer.cornerRadius" value="5"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="spanJump:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VgZ-lo-ZZ8"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="zv6-CB-1no" firstAttribute="width" secondItem="NJY-o3-FKO" secondAttribute="width" id="5ZL-QF-Gyv"/>
-                            <constraint firstItem="NJY-o3-FKO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BpD-xE-UwR"/>
+                            <constraint firstItem="NJY-o3-FKO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.35" id="BpD-xE-UwR"/>
                             <constraint firstItem="zv6-CB-1no" firstAttribute="height" secondItem="NJY-o3-FKO" secondAttribute="height" id="X5i-Zm-fey"/>
+                            <constraint firstItem="xvn-M0-azw" firstAttribute="height" secondItem="zv6-CB-1no" secondAttribute="height" id="cgI-Eh-HIY"/>
+                            <constraint firstItem="xvn-M0-azw" firstAttribute="width" secondItem="zv6-CB-1no" secondAttribute="width" id="fRP-ro-zbY"/>
                             <constraint firstItem="zv6-CB-1no" firstAttribute="centerX" secondItem="NJY-o3-FKO" secondAttribute="centerX" id="hax-yp-NJt"/>
                             <constraint firstItem="zv6-CB-1no" firstAttribute="top" secondItem="NJY-o3-FKO" secondAttribute="bottom" constant="128" id="n8q-u4-yZa"/>
+                            <constraint firstItem="xvn-M0-azw" firstAttribute="centerX" secondItem="zv6-CB-1no" secondAttribute="centerX" id="oes-hH-OnM"/>
                             <constraint firstItem="NJY-o3-FKO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qEb-sJ-qdb"/>
+                            <constraint firstItem="xvn-M0-azw" firstAttribute="top" secondItem="zv6-CB-1no" secondAttribute="bottom" constant="128" id="vNV-Yq-IOw"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="string" keyPath="self.layer.cornerRadius" value="5"/>
@@ -68,12 +91,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1120.8" y="786.65667166416802"/>
+            <point key="canvasLocation" x="2060" y="786.65667166416802"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--首页-->
         <scene sceneID="9MH-HO-CFa">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jo2-5x-LfF" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jo2-5x-LfF" customClass="NXNavigationViewController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首页" id="t4n-7y-MWG"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0SF-6W-Mwz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -86,7 +110,71 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZxU-Xa-gCB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="786.65667166416802"/>
+            <point key="canvasLocation" x="1076" y="786.65667166416802"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="oDS-m4-aPR">
+            <objects>
+                <tableViewController id="7jy-qw-Axf" customClass="NXPersonTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="6YL-fy-6UE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="personalCell" id="UPy-xb-rgk">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UPy-xb-rgk" id="KPo-XH-YpC">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="7jy-qw-Axf" id="7lR-Qa-az4"/>
+                            <outlet property="delegate" destination="7jy-qw-Axf" id="iIp-lg-2xx"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="tWp-Ix-Gq4"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LMe-yA-sfn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2028" y="1556"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="2fV-NZ-A27">
+            <objects>
+                <navigationController id="cfW-ac-X4h" customClass="NXNavigationViewController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" id="v96-Tb-yw6"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rzY-UJ-N07">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="7jy-qw-Axf" kind="relationship" relationship="rootViewController" id="yuP-AX-8Iz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Lf-pl-6Pm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="1556"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ePb-za-xHF">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="CMc-NH-iZm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="riS-eU-Xo9">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jo2-5x-LfF" kind="relationship" relationship="viewControllers" id="B2v-YU-aJD"/>
+                        <segue destination="cfW-ac-X4h" kind="relationship" relationship="viewControllers" id="8s4-we-gmt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rwS-GR-X4e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-30" y="1100"/>
         </scene>
     </scenes>
 </document>

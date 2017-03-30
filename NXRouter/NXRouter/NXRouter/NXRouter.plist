@@ -8,6 +8,10 @@
 		<dict>
 			<key>NXAristotleViewController</key>
 			<string>NXAristotleViewController</string>
+			<key>NXPersonalDesViewController</key>
+			<string>NXPersonalDesViewController</string>
+			<key>NXDetailViewController</key>
+			<string>NXDetailViewController</string>
 		</dict>
 	</dict>
 	<key>https</key>
